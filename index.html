@@ -7,78 +7,333 @@
     <title>Planned Planthood</title>
   </head>
   <body>
-Planned Planthood
 
-Hem
-Historik
-Tips
-Kontakt
+    <header>
+      <div class="logo-header">
+        <svg width="214" height="210" viewBox="0 0 214 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_23_425)">
+          <path d="M116.833 193.533C117.406 192.909 117.969 192.279 118.522 191.645L168.173 160.226C206.289 136.107 217.36 86.0907 192.816 48.5247C189.153 42.9185 181.619 41.3343 175.976 44.905L125.764 76.6782C121.37 70.1605 116.086 64.0725 109.92 58.5872L52.4904 7.49831C46.8526 2.48295 38.1677 2.90777 33.061 8.46735C-2.89261 47.6094 0.211903 108.041 39.9737 143.413L97.4031 194.502C103.041 199.517 111.726 199.092 116.833 193.533Z" stroke="white" stroke-width="8"/>
+          <path d="M115.122 194.336C115.527 193.897 115.927 193.455 116.319 193.009L153.69 169.521C182.93 151.143 191.451 112.997 172.598 84.3362C169.529 79.6722 163.25 78.3762 158.555 81.3272L121.425 104.664C118.17 100 114.303 95.6362 109.83 91.6843L66.4654 53.3677C61.8146 49.2582 54.6598 49.6021 50.4409 54.1641C22.9065 83.9378 25.2893 129.917 55.732 156.816L99.097 195.132C103.748 199.242 110.903 198.898 115.122 194.336Z" stroke="white" stroke-width="8"/>
+          </g>
+          <defs>
+          <filter id="filter0_d_23_425" x="-0.00012207" y="0" width="213.878" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_23_425"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_23_425" result="shape"/>
+          </filter>
+          </defs>
+        </svg> 
+        <p class="logo-textupper">Planned</p>
+        <p class="logo-textlower">Planthood</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Hem</a></li>
+          <li><a href="#">Historik</a></li>
+          <li><a href="#">Tips</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
-Uppskattade växter
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.
+    <main>
+      <section class="gallery-section">
+        <h2>Uppskattade växter</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</p>
+        <figure class="img-gallery">
+          <img class="gallery-dandelion" src="Assets/images/gallery-dandelion.jpg">
+          <img class="gallery-buds" src="Assets/images/gallery-buds.jpg">
+          <img class="gallery-cactus" src="Assets/images/gallery-cactus.jpg">
+          <img class="gallery-redflowers" src="Assets/images/gallery-redflowers.jpg">
+          <img class="gallery-oranges" src="Assets/images/gallery-oranges.jpg">
+          <img class="gallery-wiltedleaves" src="Assets/images/gallery-wiltedleaves.jpg">
+        </figure>
+      </section>
+      
+      <section class="hero-newsletter">
+        <h2>Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</h2>
+        <form>
+          <fieldset>
+            <label for="email" class="visually-hidden">Email Form</label>
+            <input placeholder="email@domain.com" type="email" id="email">
+            <button>SKICKA</button>
+          </fieldset>
+        </form>
+        <figure>
+        <img src="Assets/images/icon-planting.svg">
+        </figure>
+      </section>
 
-Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!
+      <section class="cards-container">
 
-Blommor
-Ätbart
-Grönska
-Gurka
-Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering, duschning och gödsling.
-Coolio
-2024-04-01
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-cucumber.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-flower">Blommor</button>
+          <button class="btn-edible">Ätbart</button>
+          <button class="btn-green">Grönska</button>
+          </div>
+          <h3>Gurka</h3>
+          <p class="card-text">Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering, duschning och gödsling.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale1.png">
+          <a class="user-name">Coolio</a>
+          <p class="user-date">2024-04-01</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-tomato.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-sunloving">Solälskande</button>
+          <button class="btn-easy">Lättodlat</button>
+          <button class="btn-edible">Ätbart</button>
+          </div>
+          <h3>Tomat</h3>
+          <p class="card-text">En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale2.png">
+          <a class="user-name">Anna Odlare</a>
+          <p class="user-date">2024-12-05</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-pelargon.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-decorative">Dekorativ</button>
+          <button class="btn-colorful">Färgstark</button>
+          <button class="btn-robust">Tålig</button>
+          <button class="btn-flower">Blommor</button>
+          </div>
+          <h3>Pelargon</h3>
+          <p class="card-text">En vacker och lättskött blomma som trivs både inne och ute under sommaren.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarmale1.png">
+          <a class="user-name">Blomsterkalle</a>
+          <p class="user-date">2024-12-03</p>
+          </div>
+        </div>
 
-Solälskande
-Lättodlat
-Ätbart
-Tomat
-En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.
-Anna Odlare
-2024-12-05
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-basilika.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-spices">Kryddor</button>
+          <button class="btn-fragrant">Doftande</button>
+          <button class="btn-sunloving">Solälskande</button>
+          </div>
+          <h3>Basilika</h3>
+          <p class="card-text">En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale3.png">
+          <a class="user-name">Krydd-Malin</a>
+          <p class="user-date">2024-12-07</p>
+          </div>
+        </div>
 
-Dekorativ
-Färgstark
-Tålig
-Blommor
-Pelargon
-En vacker och lättskött blomma som trivs både inne och ute under sommaren.
-Blomsterkalle
-2024-12-03
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-sallad.jpg">
+          <div class="card-btnwrapper">
+            <button class="btn-fast">Snabbväxande</button>
+          <button class="btn-edible">Ätbart</button>
+          <button class="btn-green">Grönska</button>
+          </div>
+          <h3>Sallad</h3>
+          <p class="card-text">Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarmale2.png">
+          <a class="user-name">Grönis</a>
+          <p class="user-date">2024-12-06</p>
+          </div>
+        </div>
 
-Kryddor
-Doftande
-Solälskande
-Basilika
-En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.
-Krydd-Malin
-2024-12-07
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-ormbunke.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-air">Luftfuktande</button>
+          <button class="btn-green">Grönska</button>
+          <button class="btn-decorative">Dekorativ</button>
+          </div>
+          <h3>Ormbunke</h3>
+          <p class="card-text">En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarmale3.png">
+          <a class="user-name">Naturvännen</a>
+          <p class="user-date">2024-12-08</p>
+          </div>
+        </div>
 
-Snabbväxande
-Ätbart
-Grönska
-Sallad
-Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.
-Grönis
-2024-12-06
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-aubergine.png">
+          <div class="card-btnwrapper">
+          <button class="btn-edible">Ätbart</button>
+          <button class="btn-colorful">Färgstark</button>
+          <button class="btn-robust">Tålig</button>
+          </div>
+          <h3>Äggplanta</h3>
+          <p class="card-text">En annorlunda men god och enkel planta att sköta om och att kunna äta.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale4.png">
+          <a class="user-name">Äggberta</a>
+          <p class="user-date">2024-10-23</p>
+          </div>
+        </div>
 
-Luftfuktande
-Grönska
-Dekorativ
-Ormbunke
-En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.
-Naturvännen
-2024-12-08
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-hyacint.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-decorative">Dekorativ</button>
+          <button class="btn-colorful">Färgstark</button>
+          <button class="btn-sunloving">Solälskande</button>
+          <button class="btn-flower">Blommor</button>
+          </div>
+          <h3>Hyacint</h3>
+          <p class="card-text">En vacker och blomma som är känd för att vara färgglad och väldoftande.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarmale4.png">
+          <a class="user-name">Blomstergunnar</a>
+          <p class="user-date">2024-4-09</p>
+          </div>
+        </div>
 
-Våra tidigare odlingar
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione quia eos pariatur deserunt veritatis. Tenetur, ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum, dolor distinctio nam quaerat doloribus?
-Planterade plantor
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-orkide.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-decorative">Dekorativ</button>
+          <button class="btn-colorful">Färgstark</button>
+          <button class="btn-flower">Blommor</button>
+          </div>
+          <h3>Orkidé</h3>
+          <p class="card-text">Numera vanlig krukväxt i svenska hem, varav unika omhändertagande av blomman.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale5.png">
+          <a class="user-name">Blomsterberit</a>
+          <p class="user-date">2024-5-17</p>
+          </div>
+        </div>
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, veniam ducimus aut sint atque ullam alias perspiciatis fuga. Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione earum. Iure, eius molestias?
-Telefon: 020-1234567
-info@plannedplant.com
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-carrot.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-decorative">Ätbart</button>
+          <button class="btn-colorful">Snabbväxande</button>
+          <button class="btn-robust">Tålig</button>
+          <button class="btn-easy">Lättodlat</button>
+          </div>
+          <h3>Morot</h3>
+          <p class="card-text">En av dom vanligaste rotfrukterna man har i trädgården, goda och enkla att odla.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarmale5.png">
+          <a class="user-name">Rotbert</a>
+          <p class="user-date">2024-8-19</p>
+          </div>
+        </div>
 
-Hem
-Historik
-Tips
-Kontakt
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-bonsai.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-decorative">Dekorativ</button>
+          <button class="btn-green">Grönska</button>
+          <button class="btn-sunloving">Solälskande</button>
+          </div>
+          <h3>Bonsai</h3>
+          <p class="card-text">Ett levande konstverk om man tar tiden att ta hand om trädet.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarmale6.png">
+          <a class="user-name">Bonsaibenny</a>
+          <p class="user-date">2024-12-24</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg">
+          <img class="item-image" src="Assets/images/card-cactus.jpg">
+          <div class="card-btnwrapper">
+          <button class="btn-decorative">Dekorativ</button>
+          <button class="btn-robust">Tålig</button>
+          <button class="btn-green">Grönska</button>
+          </div>
+          <h3>Kaktus</h3>
+          <p class="card-text">Enkel att ta hand om och fin sålänge man inte sticker sig.</p>
+          <div class="user-wrapper">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale6.png">
+          <a class="user-name">Kaktus Karin</a>
+          <p class="user-date">2024-9-16</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-planthistory">
+        <h2>Våra tidigare odlingar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione quia eos pariatur deserunt veritatis. Tenetur, ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum, dolor distinctio nam quaerat doloribus?</p>
+        <button>Planterade plantor</button>
+        <figure>
+          <img src="Assets/images/icon-seedling.svg">
+        </figure>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="logo-footer">
+        <svg width="214" height="210" viewBox="0 0 214 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_23_425)">
+          <path d="M116.833 193.533C117.406 192.909 117.969 192.279 118.522 191.645L168.173 160.226C206.289 136.107 217.36 86.0907 192.816 48.5247C189.153 42.9185 181.619 41.3343 175.976 44.905L125.764 76.6782C121.37 70.1605 116.086 64.0725 109.92 58.5872L52.4904 7.49831C46.8526 2.48295 38.1677 2.90777 33.061 8.46735C-2.89261 47.6094 0.211903 108.041 39.9737 143.413L97.4031 194.502C103.041 199.517 111.726 199.092 116.833 193.533Z" stroke="white" stroke-width="8"/>
+          <path d="M115.122 194.336C115.527 193.897 115.927 193.455 116.319 193.009L153.69 169.521C182.93 151.143 191.451 112.997 172.598 84.3362C169.529 79.6722 163.25 78.3762 158.555 81.3272L121.425 104.664C118.17 100 114.303 95.6362 109.83 91.6843L66.4654 53.3677C61.8146 49.2582 54.6598 49.6021 50.4409 54.1641C22.9065 83.9378 25.2893 129.917 55.732 156.816L99.097 195.132C103.748 199.242 110.903 198.898 115.122 194.336Z" stroke="white" stroke-width="8"/>
+          </g>
+          <defs>
+          <filter id="filter0_d_23_425" x="-0.00012207" y="0" width="213.878" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_23_425"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_23_425" result="shape"/>
+          </filter>
+          </defs>
+          </svg>
+        <p class="logo-textupper">Planned</p>
+        <p class="logo-textlower">Planthood</p>
+      </div>
+
+      <section class="contactinfo">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, veniam ducimus aut sint atque ullam alias perspiciatis fuga. Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione earum. Iure, eius molestias?</p>
+        <div class="phone-wrapper">
+          <!-- <p class="fas fa-envelope-square"></p>> -->
+          <a href="tel:020-1234567">Telefon: 020-1234567</a>
+        </div>
+        <div class="email-wrapper">
+          <img>
+        <a href="mailto:info@plannedplant.com">info@plannedplant.com</a>
+        </div>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a>Hem</a></li>
+          <li><a>Historik</a></li>
+          <li><a>Tips</a></li>
+          <li><a>Kontakt</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
