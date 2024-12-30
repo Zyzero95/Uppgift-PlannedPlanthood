@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="style.css" />
     <title>Planned Planthood</title>
   </head>
+
   <!-- Body containing Header, Main, Footer -->
   <body>
 
-    <!-- Header containing logo-header section(svg and 2 paragraphs) Nav for menu -->
+    <!-- Header containing Logo-Header, Nav-->
     <header>
+      <!-- Logo-Header(SVG, h1, h1) -->
       <div class="logo-header">
         <svg
         width="214"
@@ -27,9 +29,11 @@
           />
         </g>
       </svg>
-        <p class="logo-textupper">Planned</p>
-        <p class="logo-textlower">Planthood</p>
+        <h1 class="logo-textupper">Planned</h1>
+        <h1 class="logo-textlower">Planthood</h1>
       </div>
+
+      <!-- Nav(label, ul(li(a))) -->
       <nav>
         <label for="menu">&#9776;</label>
         <ul id="menu">
@@ -41,40 +45,44 @@
       </nav>
     </header>
 
-    <!-- Main containing Gallery Section(Figure featuring images) Hero Newsletter(Form and Figure) Cards-Container(Cards divs) Hero Planthistory(Figure and Button) -->
+    <!-- Main containing Gallery Section, Hero Newsletter, Cards-Container, Hero Planthistory -->
     <main>
+
+      <!-- Gallery Section(h2, p, Figure(imgs) -->
       <section class="gallery-section">
         <h2>Uppskattade växter</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</p>
         <figure class="img-gallery">
-          <img class="gallery-dandelion" src="Assets/images/gallery-dandelion.jpg">
-          <img class="gallery-buds" src="Assets/images/gallery-buds.jpg">
-          <img class="gallery-cactus" src="Assets/images/gallery-cactus.jpg">
-          <img class="gallery-redflowers" src="Assets/images/gallery-redflowers.jpg">
-          <img class="gallery-oranges" src="Assets/images/gallery-oranges.jpg">
-          <img class="gallery-wiltedleaves" src="Assets/images/gallery-wiltedleaves.jpg">
+          <img class="gallery-dandelion" src="Assets/images/gallery-dandelion.jpg" alt="White Dandelion">
+          <img class="gallery-buds" src="Assets/images/gallery-buds.jpg" alt="Green buds with morning dew">
+          <img class="gallery-cactus" src="Assets/images/gallery-cactus.jpg" alt="Cactus in a pot">
+          <img class="gallery-redflowers" src="Assets/images/gallery-redflowers.jpg" alt="Red flowers in a pot">
+          <img class="gallery-oranges" src="Assets/images/gallery-oranges.jpg" alt="Orange tree filled with oranges">
+          <img class="gallery-wiltedleaves" src="Assets/images/gallery-wiltedleaves.jpg" alt="Wilted leaves on a tree during rain">
         </figure>
       </section>
       
+      <!-- Hero Newsletter(Form(Fieldset, Legend, Input, Button) and Figure(img)) -->
       <section class="hero-newsletter">
         <h2>Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</h2>
         <form>
           <fieldset>
-            <label for="email" class="visually-hidden">Email Form</label>
-            <input placeholder="email@domain.com" type="email" id="email">
+            <legend class="visually-hidden">Newsletter</legend>
+            <label for="newsletter-email" class="visually-hidden">Email</label>
+            <input placeholder="email@domain.com" type="email" id="newsletter-email">
             <button>SKICKA</button>
           </fieldset>
         </form>
         <figure>
-        <img src="Assets/images/icon-planting.svg">
+        <img src="Assets/images/icon-planting.svg" alt="Icon-Planting">
         </figure>
       </section>
 
+      <!-- Cards-Container(Cards divs(images,Buttonwrapper,buttons,h3,user profile wrapper, userimage, username, userdate)) -->
       <section class="cards-container">
-
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-cucumber.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-cucumber.jpg" alt="Cucumbers">
           <div class="card-btnwrapper">
           <button class="btn-flower">Blommor</button>
           <button class="btn-edible">Ätbart</button>
@@ -83,15 +91,15 @@
           <h3>Gurka</h3>
           <p class="card-text">Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering, duschning och gödsling.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarfemale1.png">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale1.png" alt="Profile-Avatar">
           <a class="user-name">Coolio</a>
           <p class="user-date">2024-04-01</p>
           </div>
         </div>
         
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-tomato.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-tomato.jpg" alt="Tomatoes">
           <div class="card-btnwrapper">
           <button class="btn-sunloving">Solälskande</button>
           <button class="btn-easy">Lättodlat</button>
@@ -100,15 +108,15 @@
           <h3>Tomat</h3>
           <p class="card-text">En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarfemale2.png">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale2.png" alt="Profile-Avatar">
           <a class="user-name">Anna Odlare</a>
           <p class="user-date">2024-12-05</p>
           </div>
         </div>
         
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-pelargon.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-pelargon.jpg" alt="Geranium">
           <div class="card-btnwrapper">
           <button class="btn-decorative">Dekorativ</button>
           <button class="btn-colorful">Färgstark</button>
@@ -118,15 +126,15 @@
           <h3>Pelargon</h3>
           <p class="card-text">En vacker och lättskött blomma som trivs både inne och ute under sommaren.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarmale1.png">
+          <img class="user-avatar" src="Assets/images/card-avatarmale1.png" alt="Profile-Avatar">
           <a class="user-name">Blomsterkalle</a>
           <p class="user-date">2024-12-03</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-basilika.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-basilika.jpg" alt="Basil">
           <div class="card-btnwrapper">
           <button class="btn-spices">Kryddor</button>
           <button class="btn-fragrant">Doftande</button>
@@ -135,15 +143,15 @@
           <h3>Basilika</h3>
           <p class="card-text">En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarfemale3.png">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale3.png" alt="Profile-Avatar">
           <a class="user-name">Krydd-Malin</a>
           <p class="user-date">2024-12-07</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-sallad.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-sallad.jpg" alt="Lettuce">
           <div class="card-btnwrapper">
             <button class="btn-fast">Snabbväxande</button>
           <button class="btn-edible">Ätbart</button>
@@ -152,15 +160,15 @@
           <h3>Sallad</h3>
           <p class="card-text">Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarmale2.png">
+          <img class="user-avatar" src="Assets/images/card-avatarmale2.png" alt="Profile-Avatar">
           <a class="user-name">Grönis</a>
           <p class="user-date">2024-12-06</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-ormbunke.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-ormbunke.jpg" alt="Ferns">
           <div class="card-btnwrapper">
           <button class="btn-air">Luftfuktande</button>
           <button class="btn-green">Grönska</button>
@@ -169,15 +177,15 @@
           <h3>Ormbunke</h3>
           <p class="card-text">En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarmale3.png">
+          <img class="user-avatar" src="Assets/images/card-avatarmale3.png" alt="Profile-Avatar">
           <a class="user-name">Naturvännen</a>
           <p class="user-date">2024-12-08</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-aubergine.png">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-aubergine.png" alt="Aubergines">
           <div class="card-btnwrapper">
           <button class="btn-edible">Ätbart</button>
           <button class="btn-colorful">Färgstark</button>
@@ -186,15 +194,15 @@
           <h3>Äggplanta</h3>
           <p class="card-text">En annorlunda men god och enkel planta att sköta om och att kunna äta.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarfemale4.png">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale4.png" alt="Profile-Avatar">
           <a class="user-name">Äggberta</a>
           <p class="user-date">2024-10-23</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-hyacint.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-hyacint.jpg" alt="Hyacinth">
           <div class="card-btnwrapper">
           <button class="btn-decorative">Dekorativ</button>
           <button class="btn-colorful">Färgstark</button>
@@ -204,15 +212,15 @@
           <h3>Hyacint</h3>
           <p class="card-text">En vacker och blomma som är känd för att vara färgglad och väldoftande.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarmale4.png">
+          <img class="user-avatar" src="Assets/images/card-avatarmale4.png" alt="Profile-Avatar">
           <a class="user-name">Blomstergunnar</a>
           <p class="user-date">2024-4-09</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-orkide.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-orkide.jpg" alt="Orchid">
           <div class="card-btnwrapper">
           <button class="btn-decorative">Dekorativ</button>
           <button class="btn-colorful">Färgstark</button>
@@ -221,15 +229,15 @@
           <h3>Orkidé</h3>
           <p class="card-text">Numera vanlig krukväxt i svenska hem, varav unika omhändertagande av blomman.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarfemale5.png">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale5.png" alt="Profile-Avatar">
           <a class="user-name">Blomsterberit</a>
           <p class="user-date">2024-5-17</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-carrot.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-carrot.jpg" alt="Carrots">
           <div class="card-btnwrapper">
           <button class="btn-decorative">Ätbart</button>
           <button class="btn-colorful">Snabbväxande</button>
@@ -239,15 +247,15 @@
           <h3>Morot</h3>
           <p class="card-text">En av dom vanligaste rotfrukterna man har i trädgården, goda och enkla att odla.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarmale5.png">
+          <img class="user-avatar" src="Assets/images/card-avatarmale5.png" alt="Profile-Avatar">
           <a class="user-name">Rotbert</a>
           <p class="user-date">2024-8-19</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-bonsai.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-bonsai.jpg" alt="Bonsai Tree in a pot">
           <div class="card-btnwrapper">
           <button class="btn-decorative">Dekorativ</button>
           <button class="btn-green">Grönska</button>
@@ -256,15 +264,15 @@
           <h3>Bonsai</h3>
           <p class="card-text">Ett levande konstverk om man tar tiden att ta hand om trädet.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarmale6.png">
+          <img class="user-avatar" src="Assets/images/card-avatarmale6.png" alt="Profile-Avatar">
           <a class="user-name">Bonsaibenny</a>
           <p class="user-date">2024-12-24</p>
           </div>
         </div>
 
         <div class="card">
-          <img class="image-logo" src="Assets/images/icon-seedling.svg">
-          <img class="item-image" src="Assets/images/card-cactus.jpg">
+          <img class="image-logo" src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
+          <img class="item-image" src="Assets/images/card-cactus.jpg" alt="Cacti in pots">
           <div class="card-btnwrapper">
           <button class="btn-decorative">Dekorativ</button>
           <button class="btn-robust">Tålig</button>
@@ -273,25 +281,28 @@
           <h3>Kaktus</h3>
           <p class="card-text">Enkel att ta hand om och fin sålänge man inte sticker sig.</p>
           <div class="user-wrapper">
-          <img class="user-avatar" src="Assets/images/card-avatarfemale6.png">
+          <img class="user-avatar" src="Assets/images/card-avatarfemale6.png" alt="Profile-Avatar">
           <a class="user-name">Kaktus Karin</a>
           <p class="user-date">2024-9-16</p>
           </div>
         </div>
       </section>
 
+      <!-- Hero Planthistory(h2, p, button, figure(img)) -->
       <section class="hero-planthistory">
         <h2>Våra tidigare odlingar</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione quia eos pariatur deserunt veritatis. Tenetur, ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum, dolor distinctio nam quaerat doloribus?</p>
         <button>Planterade plantor</button>
         <figure>
-          <img src="Assets/images/icon-seedling.svg">
+          <img src="Assets/images/icon-seedling.svg" alt="Icon-Seedling">
         </figure>
       </section>
     </main>
 
-    <!-- Footer containing Logo Footer(SVG and two paragraphs) Contact Info(Wrappers for phone and email anchors) Nav(links for the website) -->
+    <!-- Footer containing Logo Footer, Contact Info, Nav -->
     <footer>
+
+      <!-- Logo Footer(SVG, h1, h1) -->
       <div class="logo-footer">
         <svg
         width="214"
@@ -308,22 +319,24 @@
           />
         </g>
         </svg>
-        <p class="logo-textupper">Planned</p>
-        <p class="logo-textlower">Planthood</p>
+        <h1 class="logo-textupper">Planned</p>
+        <h1 class="logo-textlower">Planthood</p>
       </div>
 
+      <!-- Contact Info(Phone-wrapper(label, a), Email-Wrapper(label, a)) -->
       <section class="contactinfo">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, veniam ducimus aut sint atque ullam alias perspiciatis fuga. Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione earum. Iure, eius molestias?</p>
         <div class="phone-wrapper">
-          <label for="phonenumber">&#9743;</label>
-          <a id="phonenumber" href="tel:020-1234567">Telefon: 020-1234567</a>
+          <p>&#9743;</p>
+          <a href="tel:020-1234567">Telefon: 020-1234567</a>
         </div>
         <div class="email-wrapper">
-          <label for="email">&#9993;</label>
-          <a id="email" href="mailto:info@plannedplant.com">info@plannedplant.com</a>
+          <p>&#9993;</p>
+          <a href="mailto:info@plannedplant.com">info@plannedplant.com</a>
         </div>
       </section>
 
+      <!-- Nav(ul(li(a))) -->
       <nav>
         <ul>
           <li><a href="#">Hem</a></li>
